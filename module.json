@@ -1,6 +1,14 @@
 {
   "version": "1.0.0",
   "main": {
-    "linux/amd64": "bin/flow_engine_linux_amd64.bin"
+    "linux/386": "bin/flow_engine_linux_.bin",
+    "linux/amd64": "bin/flow_engine_linux_.bin",
+    "linux/arm": "bin/flow_engine_linux_.bin",
+    "linux/arm64": "bin/flow_engine_linux_.bin",
+    "freebsd/386": "bin/flow_engine_freebsd_.bin",
+    "freebsd/amd64": "bin/flow_engine_freebsd_.bin",
+    "freebsd/arm": "bin/flow_engine_freebsd_.bin",
+    "freebsd/arm64": "bin/flow_engine_freebsd_.bin",
+    "darwin/amd64": "bin/flow_engine_darwin_.bin"
   }
 }
